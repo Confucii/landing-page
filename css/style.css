@@ -1,0 +1,28 @@
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px;
+    background-color: #1F2937;
+    gap: 400px;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
