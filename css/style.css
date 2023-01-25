@@ -88,6 +88,24 @@ a {
     border-radius: 10px;
 }
 
+.quote {
+    background-color: #e8e7e793;
+    padding: 132px 450px 96px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-ref {
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: 800;
+    color: #1F2937;
+    width: fit-content;
+}
+
 a, p {
     margin: 0;
     font-size: 18px;
