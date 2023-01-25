@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    width: 100vw;
 }
 
 .page{
@@ -20,12 +19,19 @@ body {
     gap: 400px;
 }
 
+
+a, p {
+    margin: 0;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
 .links {
     display: flex;
     gap: 32px;
 }
 
-a {
+.links a {
     text-decoration: none;
 }
 
@@ -55,6 +61,20 @@ a {
     font-weight: bolder;
     color: #F9FAF8;
     margin: 0;
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: fit-content;
+    color: #F9FAF8;
+    border: 0px;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.button-hero {
+    background-color: #d41212;
 }
 
 .info {
@@ -106,19 +126,42 @@ a {
     width: fit-content;
 }
 
-a, p {
-    margin: 0;
-    font-size: 18px;
-    color: #F9FAF8;
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 200px;
 }
 
-.button-style {
+.container-action {
+    display: flex;
     background-color: #d41212;
     border-radius: 10px;
-    padding: 10px 30px;
-    width: fit-content;
-    color: #F9FAF8;
-    border: 0px;
+    flex: 1;
+    justify-content: space-evenly;
+    padding: 32px 96px;
+    gap: 120px;
+}
+
+.button-action {
+    background-color: #d41212;
+    border: 2px solid #F9FAF8;
+    align-self: center;
+}
+
+.container-text-head {
     font-weight: 800;
-    font-size: 16px;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.container-text-body {
+    color: #F9FAF8; 
+    font-size: 18px;
+}
+
+.footer {
+    text-align: center;
+    padding: 16px 0px;
+    background-color: #383434;
 }
