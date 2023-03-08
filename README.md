@@ -1,4 +1,4 @@
-# landing-page
+# Landing page
 This is the landing page created during the odin project studies. The purpose of this project is to practice Flexbox skills by recreating simple design
 
 ## [Live Demo](https://confucii.github.io/landing-page/)
